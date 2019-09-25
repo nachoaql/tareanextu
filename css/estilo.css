@@ -1,7 +1,24 @@
 body
 {
-color:black;
-font-family: Microsoft JhengHei UI;
-width: 400px;
-margin: 0px auto;
+background-color:white;
+font-family: Microsoft JhengHei UI; 
+align-content: center;
+}
+footer
+{
+ margin-top: 20px;
+}
+#contenedor
+{
+  font-size: 16px ;
+}
+#Encabezado
+{
+ display: block;
+ margin: 0 auto; 
+}
+#parrafo
+{
+ font-size: 20px; 
+
 }
