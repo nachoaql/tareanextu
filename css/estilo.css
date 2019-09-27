@@ -20,5 +20,16 @@ footer
 #parrafo
 {
  font-size: 20px; 
+}
+a[href]
+{
+  color: red;
+}
+img[src$=".svg"]{
+  border-radius: 50px;
+}
+img[src$="jpg"],img[src="png"]{
+  border: 1px solid black;
+  border-radius: 5px;
 
 }
