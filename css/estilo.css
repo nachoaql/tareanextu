@@ -1,26 +1,43 @@
 body
 {
 background-color:white;
-font-family: Microsoft JhengHei UI; 
-align-content: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align-content: justify;
+
 }
 footer
 {
  margin-top: 20px;
+
 }
 #contenedor
 {
-  font-size: 16px ;
+  font-size: 20px ;
 }
 #Encabezado
 {
  display: block;
  margin: 0 auto; 
+ padding-left: 10px;
 }
 #parrafo
 {
- font-size: 20px; 
+ font-size: 24px;
+ padding-right: 400px; 
 }
+#subtitulo
+{
+padding-left: 70px; 
+}
+#educacion
+{
+ margin-left: 100px;  
+}
+div[id="logosRD"]
+{
+padding-left: 470px;  
+}
+
 a[href]
 {
   color: red;
@@ -29,7 +46,42 @@ img[src$=".svg"]{
   border-radius: 50px;
 }
 img[src$="jpg"],img[src="png"]{
+  margin-left: 50px;
   border: 1px solid black;
   border-radius: 5px;
-
+}
+h2
+{
+margin-left: 100px;
+}
+h2[id="perfil"]
+{
+ margin-left: 20px; 
+}
+h3[style]
+{
+  padding-left: 150px;
+}
+ul
+{
+  padding-left: 100px;
+}
+p[style]
+{
+  padding-left:490px ;
+}
+#video
+{
+  padding-left:100px; 
+}
+#audio
+{
+  padding-left: 100px;
+}
+*{
+  margin: 1vh 1vw;
+}
+h1 + h2{
+  text-decoration: underline;
+  color: red;
 }

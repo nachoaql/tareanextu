@@ -7,8 +7,9 @@
     <title>Educación</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
-<body>
-<header>
+<body id="contenedor">
+<a name="arriba"></a>   
+<header id="Encabezado">
     <svg width="500" height="120"  > 
     <title>LOGO</title> 
         <g id="svg_22" viewBox="180 0 100 120" aling="center">
@@ -28,13 +29,13 @@
     </svg> 
 </header>
     <ul>
-        <a href="index.html"><FONT FACE="Microsoft JhengHei UI">INICIO</FONT></a> | 
-        <a href="educacion.html"><FONT FACE="Microsoft JhengHei UI">EDUCACIÓN</FONT></a> | 
-        <a href="experiencia.html"><FONT FACE="Microsoft JhengHei UI">EXPERIENCIA</FONT></a>
+        <a href="index.html">INICIO</a> | 
+        <a href="educacion.html#arriba">EDUCACIÓN</a> | 
+        <a href="experiencia.html">EXPERIENCIA</a>
     </ul>
-    <h2 style="padding-left:40px;"><u>Educación</u></h2>
-    <form>
-    <table border="1", cellpadding="30", cellspacing="0">
+    <h2><u>Educación</u></h2>
+    <form id="educacion">
+    <table  border="1", cellpadding="30", cellspacing="0">
         <h3>
             <thead>
                 <tr>
@@ -91,21 +92,20 @@
         <li>
             <p>
                 <label for="Culminado">Culminado: </label>
-            <b>Si</b><input type="radio" name="opcion">
-            <b>No</b><input type="radio" name="opcion">
-            <b>En proceso</b><input type="radio" name="opcion">
+            <input type="radio" name="opcion" value="si"><b>Si</b>
+            <input type="radio" name="opcion" value="No"><b>No</b>
+            <input type="radio" name="opcion" value="En Proceso"><b>En Proceso</b>
             </p>
         </li>
         <p>
-            <input type="submit" value="Enviar" autofocus>  <input type="reset" value="limpiar"> 
+                <input type="submit" value="Enviar" >  <input type="reset" value="limpiar"> 
         </p>
-    
     </ul>       
     </form>
-<hr/>
-<footer style="padding-left:70px;" >
-    <p style="padding-left:30px;"><STRONG><u><FONT FACE="Microsoft JhengHei UI">Información de contacto:</FONT></u></STRONG></P>
-    <div>
+<footer>
+    <hr/>
+    <p style><STRONG><u>Información de contacto</u></STRONG></P>
+    <div id="logosRD">
         <a href="https://www.facebook.com/ignacio.quero.37" target="_blank" ><img src="img/logo-facebook.png" height="50px" alt="Facebook"></a> 
         <a href="https://www.instagram.com" target="_blank" ><img src="img/logo-instagram.png" height="50px" alt="Instagram"></a>
         <a href="https://twitter.com/home" target="_blank" ><img src="img/logo-twitter.png" height="50px" alt="Twitter"></a>
@@ -113,8 +113,8 @@
         <a href="mailto:nacro1320@example.com?subject=feedback" target="_blank"><img src="img/logo-google.png" height="50px" alt="Gmail"></a>  
        
     </div>
-    <a href="educacion.html" style="padding-left:90px;" >volver</a> <br/>  
-    <a style="padding-left:  40px;">Derechos Reservados</a>
+    <a style="padding-left: 580px" href="educacion.html#arriba"  >volver</a> <br/>  
+    <a style="padding-left: 1050px">Derechos Reservados</a>
     
 </footer>
     
